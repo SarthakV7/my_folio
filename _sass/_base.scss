@@ -4,10 +4,6 @@
 
 // Typography
 
-p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
-  color: var(--global-text-color);
-}
-
 a, table.table a {
   color: var(--global-theme-color);
   &:hover {
@@ -65,9 +61,9 @@ a, table.table a {
 
 .post-description {
   margin-bottom: 2rem;
-  font-size: 0.875rem;
   a {
     color: inherit;
+    font-size: 0.875rem;
     &:hover {
       color: var(--global-theme-color);
       text-decoration: none;
@@ -80,7 +76,7 @@ a, table.table a {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid $grey-color-light;
+  border-bottom: 1px solid $light-carrot-color;
   opacity: 0.95;
   background-color: var(--global-bg-color);
 }
@@ -123,7 +119,7 @@ a, table.table a {
     display: block;
     width: 22px;
     height: 2px;
-    background-color: var(--global-icon-color);
+    background-color: $grey-color-dark;
     border-radius: 1px;
     margin-bottom: 4px;
     transition: all 0.2s;
@@ -186,10 +182,10 @@ a, table.table a {
 
 // Footer
 footer.fixed-bottom {
+  color: var(--global-footer-text-color);
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
   .container {
-    color: var(--global-footer-text-color);
     padding-top: 9px;
     padding-bottom: 8px;
   }
@@ -247,20 +243,10 @@ footer.sticky-bottom {
   }
 }
 
-.pagination {
-  .page-item {
-    .page-link {
-      color: var(--global-text-color);
-      &:hover {
-        color: $black-color;
-      }
-    }
-    &.active .page-link {
-      background-color: var(--global-theme-color);
-      &:hover {
-        background-color: var(--global-theme-color);
-      }
-    }
+.pagination .page-item.active .page-link {
+  background-color: var(--global-theme-color);
+  &:hover {
+    background-color: var(--global-theme-color);
   }
 }
 
@@ -407,10 +393,10 @@ footer.sticky-bottom {
         transition: all 0.15s ease;
       }
       div.abstract.hidden {
-        border: dashed 1px var(--global-bg-color);
+        border: dashed 1px white;
       }
       div.abstract.hidden.open {
-        border-color: var(--global-text-color);
+        border-color: $grey-color;
       }
     }
   }

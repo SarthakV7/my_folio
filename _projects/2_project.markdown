@@ -1,8 +1,9 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: /assets/img/3.jpg
+title: Attention model JPN -> ENG
+description: Japanese to English translator using encoder-decoder model with attention.
+img: /assets/img/p2.jpg
+redirect: https://www.kaggle.com/sarthakvajpayee/attention-mechanism-japanese-english
 importance: 2
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: /assets/img/7.jpg
-redirect: https://unsplash.com
+title: Google Quest Q&A labelling
+description: Implementation of Transformers on a NLP dataset by Google (Kaggle competition).
+img: /assets/img/p3.jpg
+redirect: https://www.kaggle.com/sarthakvajpayee/top-4-4-bert-roberta-xlnet
 importance: 3
 ---
 

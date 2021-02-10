@@ -1,9 +1,10 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: /assets/img/1.jpg
-importance: 3
+title: Solving sudoku using Artificial Intelligence
+description: AI-powered sudoku solver using a simple Convolutional Neural Network.
+img: /assets/img/p5.jpg
+redirect: https://www.kaggle.com/sarthakvajpayee/simple-ai-sudoku-solver
+importance: 5
 ---
 
 Every project has a beautiful feature showcase page.

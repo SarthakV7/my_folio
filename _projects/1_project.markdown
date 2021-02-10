@@ -1,8 +1,9 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: /assets/img/12.jpg
+title: COVID-19 Dashboard
+description: COVID-19 dashboard with interactive visualization and analysis on global data.
+img: /assets/img/p1.jpg
+redirect: https://covid19-global-dashboard-sv.herokuapp.com/
 importance: 1
 ---
 

@@ -1,12 +1,12 @@
 /*******************************************************************************
  * Themes
  ******************************************************************************/
- 
+
 :root {
   --global-bg-color: #{$white-color};
   --global-text-color: #{$black-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$light-purple-color};
+  --global-theme-color: #{$carrot-color};
+  --global-hover-color: #{$light-carrot-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
@@ -23,14 +23,14 @@
 }
 
 html[data-theme='dark'] {
-  --global-bg-color: #{$grey-color-dark};
+  --global-bg-color: #{$black-color};
   --global-text-color: #{$grey-color-light};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$light-cyan-color};
-  --global-footer-bg-color: #{$grey-color-light};
+  --global-theme-color: #{$carrot-color};
+  --global-hover-color: #{$light-carrot-color};
+  --global-footer-bg-color: #{$light-carrot-color};
   --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
-  --global-icon-color: navajowhite;
+  --global-footer-link-color: #{$grey-color};
+  --global-icon-color: white;
 
   .fa-sun {
     padding-left: 10px;
