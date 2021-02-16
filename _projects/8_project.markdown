@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Hand gesture translator
-description: Hand gesture to Emoji translator using custom CNN model and YOLOv3.
-img: /assets/img/p7.jpg
-redirect: https://www.kaggle.com/sarthakvajpayee/hand-gesture-to-emoji
-importance: 7
+title: Netflix - Global shows
+description: Netflix show Genre prediction using transformers (Interactive EDA also).
+img: /assets/img/p8.jpg
+redirect: https://www.kaggle.com/sarthakvajpayee/netflix-interactive-eda-genre-prediction-bert
+importance: 8
 ---
 
 Every project has a beautiful feature showcase page.
